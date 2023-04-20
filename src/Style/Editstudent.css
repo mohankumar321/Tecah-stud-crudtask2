@@ -1,9 +1,34 @@
-#t-head{
-    background-image: linear-gradient(to top, #e22df2 0%, #f23a22 100%);
+.Edit-Student{
+   
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin-top: 10vh;
+    height: 45vh;
+    background-image: linear-gradient(to top, #622df2 0%, #22b0f2 100%);
+  width: 40vh;
+  margin-left: 75vh;
+  border-top-right-radius: 5vh;
+ 
+   
+}
+
+.Edit-Student input{
+   width: 30vh;
+   border-radius: 2VH;
+    font-size: 35px;
+    padding: 1vh;
+}
+
+.Edit-Student button{
+    font-size: 35px;
+    padding: 1vh;
+   
 }
 
 
-#T-add {
+
+.button-78 {
     letter-spacing: 10px;
   align-items: center;
   appearance: none;
@@ -18,7 +43,7 @@
   flex-direction: row;
   flex-shrink: 0;
   font-family: Eina01,sans-serif;
-  font-size: 35px;
+  font-size: 16px;
   font-weight: 800;
   justify-content: center;
   line-height: 24px;
@@ -42,19 +67,18 @@
 }
 
 @media (min-width: 768px) {
-  .T-add {
+  .button-78 {
     padding: 19px 32px;
   }
 }
 
-
-.T-add:after {
+.button-78:before,
+.button-78:after {
   border-radius: 80px;
 }
 
-#T-add:before {
-    border-radius: 3vh;
-  background-image:  linear-gradient(to top, #d526b8 0%, #f22222 100%);
+.button-78:before {
+  background-image:  linear-gradient(to top, #622df2 0%, #22b0f2 100%);
   content: "";
   display: block;
   height: 100%;
@@ -66,9 +90,9 @@
   z-index: -2;
 }
 
-#T-add:after {
+.button-78:after {
   background-color: initial;
-  background-image:linear-gradient(to top, #f62698 0%, #7da6b1 100%);
+  background-image:linear-gradient(to top, #622df2 0%, #22b0f2 100%);
   bottom: 4px;
   content: "";
   display: block;
@@ -81,11 +105,11 @@
   z-index: -1;
 }
 
-#T-add:hover:not(:disabled):before {
-  background: linear-gradient(92.83deg, rgb(128, 38, 255) 0%, rgb(249, 19, 237) 100%);
+.button-78:hover:not(:disabled):before {
+  background: linear-gradient(92.83deg, rgb(38, 183, 255) 0%, rgb(249, 19, 237) 100%);
 }
 
-#T-add:hover:not(:disabled):after {
+.button-78:hover:not(:disabled):after {
   bottom: 0;
   left: 0;
   right: 0;
@@ -94,15 +118,15 @@
   opacity: 0;
 }
 
-#T-add:active:not(:disabled) {
+.button-78:active:not(:disabled) {
   color: #ccc;
 }
 
-#T-add:active:not(:disabled):before {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff2672 0, #9507af 100%);
+.button-78:active:not(:disabled):before {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff2672 0, #750789 100%);
 }
 
-#T-add:active:not(:disabled):after {
+.button-78:active:not(:disabled):after {
   background-image:  linear-gradient(to top, #622df2 0%, #22b0f2 100%);
   bottom: 4px;
   left: 4px;
@@ -110,7 +134,9 @@
   top: 4px;
 }
 
-#T-add:disabled {
+.button-78:disabled {
   cursor: default;
   opacity: .24;
 }
+
+

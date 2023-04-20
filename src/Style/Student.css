@@ -1,0 +1,116 @@
+.student{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto  auto;
+    margin: 10vh;
+    
+}
+
+.s-card{
+    font-size: 35px;
+    box-shadow: rgba(17, 12, 46, 0.15) 10px 100px 100px 0px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #a4bfdd 100%);
+    border: none;
+    margin: 3vh;
+    height: 48vh;
+    width: 35vh;
+
+}
+.s-card:hover{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+ background-image: linear-gradient(135deg, #caccd0 0%, #a3cbf9 100%);
+}
+
+.name{
+    border-radius: 1vh;
+    padding: 15px;
+    letter-spacing: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+}
+.name:hover{
+    letter-spacing: 15px;
+}
+
+.s{
+    letter-spacing: 3px;
+color: #20288f;
+    padding: 1vh;
+    margin-left: 2vh;
+}
+
+.s b{
+    color: #2351cf;
+}
+.reg span{
+    margin-left: 2.7vh;
+    color: #807e7a;
+}
+.sex span{
+    margin-left: 9.5vh;
+    color: #807e7a;
+}
+.grp span{
+    margin-left: 7.5vh;
+    color: #807e7a;
+}
+.sct span{
+    margin-left: 6.2vh;
+    color: #807e7a;
+}
+.bus span{
+    margin-left: 2vh;
+    color: #807e7a;
+}
+.loc span{
+    margin-left: 5.3vh;
+    color: #807e7a;
+}
+
+.btn-box{
+    text-align: center;
+   
+}
+
+.user-btn {
+    width: 10vh;
+  margin: 1vh;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 100px;
+  background-color: #45a7fd;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(238, 62, 62, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  font-size: 25px;
+  user-select: none;
+ 
+  touch-action: manipulation;
+  cursor: pointer;
+}
+.updt{
+    color: #ffffff;
+}
+
+
+.updt:hover{
+    box-shadow: 2px 19px 31px rgba(60, 247, 22, 0.2);
+    background-color: #45b55f;
+    letter-spacing: 0.5vh;
+    font-size: 35px;
+    color: #f0fdff;
+    padding-left: 0.5vh;
+}
+
+.dlt:hover{
+    box-shadow: 2px 20px 31px rgba(255, 0, 47, 0.2);
+    padding-left: 0.5vh;
+    background-color: #f54141;
+    letter-spacing: 0.5vh;
+    font-size: 35px;
+    color: #f0fdff;
+   
+}

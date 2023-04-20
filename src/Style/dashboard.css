@@ -1,0 +1,34 @@
+.detail-card{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    border: none;
+   }
+ 
+.d-btn{
+    background-image: radial-gradient(100% 100% at 100% 0, #02bdf6 0, #2b00ff 100%);
+    color: rgb(138, 143, 249);
+   border: none;
+    font-family: Arial;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 75px;
+    margin: 5vh;
+    height: 20vh;
+    width:40vh;
+}
+.d-btn:hover{
+    color: rgb(255, 255, 255);
+    margin-top: -2vh; 
+    transition: 1s;
+    font-size: 80px;
+    border: none;
+   
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+.d-btn-2{
+    color: rgb(249, 170, 200);
+    background-image: radial-gradient(100% 100% at 100% 0, #fb69ed 0, #e8188a 100%);
+}

@@ -1,0 +1,109 @@
+.Teacher{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto  auto;
+    margin: 10vh;
+}
+
+.Td-card{
+    font-size: 35px;
+    box-shadow: rgba(17, 12, 46, 0.15) 10px 100px 100px 0px;
+    background-image: linear-gradient(135deg, #e5e1e5 0%, #facdf1 100%);
+    border: none;
+    margin: 3vh;
+    height: 49vh;
+    width: 38vh;
+}
+
+.Td-card:hover{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+ background-image: linear-gradient(135deg, #f8f1f8 0%, #f0d0ec 100%);
+}
+
+.tname{
+    border-radius: 1vh;
+    padding: 15px;
+    letter-spacing: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: radial-gradient(100% 100% at 100% 0, #ff5af1 0, #943bfb 100%);
+}
+.tname:hover{
+    letter-spacing: 15px;
+}
+
+.t{
+    letter-spacing: 3px;
+color: #8f208f;
+    padding: 1vh;
+    margin-left: 2vh;
+}
+
+.t b{
+    color: #dc0dcb;
+}
+.tcrs span{
+    margin-left: 2vh;
+    color: #807e7a;
+}
+.tsex span{
+    margin-left: 10.2vh;
+    color: #807e7a;
+}
+.tmail span{
+    margin-left: 8.5vh;
+    color: #807e7a;
+}
+.texp span{
+    margin-left: 4vh;
+    color: #807e7a;
+}
+.tslry span{
+    margin-left: 7.8vh;
+    color: #807e7a;
+}
+.tloc span{
+    margin-left: 6vh;
+    color: #807e7a;
+}
+
+.tbtn-box{
+    text-align: center;
+   
+}
+.td-btn {
+    width: 10vh;
+  margin: 1vh;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 100px;
+  background-color: #de45fd;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(238, 62, 62, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  font-size: 25px;
+  user-select: none;
+   touch-action: manipulation;
+  cursor: pointer;
+}
+
+.td-btn:hover{
+    box-shadow: 2px 19px 31px rgba(60, 247, 22, 0.2);
+  
+    letter-spacing: 0.5vh;
+    font-size: 35px;
+    color: #f0fdff;
+    padding-left: 0.5vh;
+}
+
+.td-updt-btn:hover{
+    background-color: #45b55f;
+}
+
+.td-dlt-btn:hover{
+    background-color: #e9346d;
+}
+
+
